@@ -12,6 +12,8 @@ body {
 	font-family: 'Inter', sans-serif;
 }
 
+/* NAV  */
+
 nav {
 	display: flex;
 	justify-content: center;
@@ -31,4 +33,83 @@ nav {
 	line-height: 17.5px;
 	letter-spacing: -0.075em;
 	color: #ffffff;
+}
+
+/* HERO */
+
+.bold {
+	font-weight: bold;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.card--image {
+	width: 125px;
+	height: 168px;
+	top: 100px;
+	left: 40px;
+	border-radius: 5px;
+	margin: 10px;
+	flex: 0 0 auto;
+	margin-right: 10px;
+}
+
+.card--where {
+	display: flex;
+	justify-content: column;
+	align-items: center;
+	background-color: rebeccapurple;
+}
+
+.card--thumbtack {
+	padding-left: 20px;
+}
+
+.card--country {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 12px;
+	letter-spacing: 0.17em;
+	text-align: left;
+	color: #2b283a;
+	padding: 12px;
+}
+.card--google-maps {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 12px;
+	letter-spacing: 0em;
+	text-align: left;
+	text-decoration: underline;
+	color: #918e9b;
+}
+.card--name {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #2b283a;
+}
+
+.card--date {
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #2b283a;
+}
+.card--description {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #2b283a;
 }
