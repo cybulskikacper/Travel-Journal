@@ -46,6 +46,7 @@ nav {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+	background-color: rebeccapurple;
 }
 
 .card--image {
@@ -63,7 +64,6 @@ nav {
 	display: flex;
 	justify-content: column;
 	align-items: center;
-	background-color: rebeccapurple;
 }
 
 .card--thumbtack {
