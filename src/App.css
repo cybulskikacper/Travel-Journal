@@ -46,6 +46,7 @@ nav {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+	max-width: 1200px;
 }
 
 .card--image {
@@ -61,8 +62,13 @@ nav {
 
 .card--where {
 	display: flex;
-	justify-content: column;
 	align-items: center;
+}
+.card--name {
+	margin: 7px;
+}
+.card--date { 
+	margin: 9px;
 }
 
 .card--thumbtack {
