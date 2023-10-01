@@ -46,5 +46,6 @@ nav {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+	/* sprawdzic czy ten mx jest git czy ma byc inny */
 	max-width: 1200px;
 }
