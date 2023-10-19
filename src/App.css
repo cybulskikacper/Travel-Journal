@@ -35,6 +35,8 @@ nav {
 	color: #ffffff;
 }
 
+
+
 /* HERO */
 
 .bold {
@@ -50,7 +52,7 @@ nav {
 	/* sprawdzic czy ten mx jest git czy ma byc inny, usunalem go a bylo 1200*/
 
 	max-height: 250px;
-	/* #F5F5F5 <--- taki kolor dac  */
+
 	border: 1px solid #f5f5f5;
 	margin-top: 50px;
 }
@@ -69,8 +71,6 @@ nav {
 	align-items: center;
 	margin-top: 20px;
 }
-
-/* ewentualnie usunaac ten mb  */
 
 .card--thumbtack,
 .card--country,
