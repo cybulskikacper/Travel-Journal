@@ -6,11 +6,18 @@ import Countries from './components/Hero'
 import Nav from './components/Nav'
 import './App.css'
 
-function App() {
+function App(props) {
 	return (
 		<>
 			<Nav />
-			<Countries />
+			<Countries 
+			
+			location={props.location}
+
+			
+			
+			
+			/>
 		</>
 	)
 }

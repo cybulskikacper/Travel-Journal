@@ -1,6 +1,7 @@
 import React from 'react'
+import Data from './Data'
 
-function Countries() {
+function Countries(props) {
 	return (
 		<>
 			<div className="card ">
@@ -13,7 +14,7 @@ function Countries() {
 				<div className="card--all">
 					<div className="card--where">
 						<img className="card--thumbtack" src="./images/Fill 219.png" />
-						<p className="card--country">Japan</p>
+						<p className="card--country">{props.location}</p>
 						<p className="card--google-maps">View on Google Maps</p>
 					</div>
 
@@ -21,7 +22,8 @@ function Countries() {
 						<h2 className="card--name bold">Mount Fuji</h2>
 						<h3 className="card--date bold">12 Jan, 2021 - 24 Jan, 2021</h3>
 						<p className="card--description">
-						Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.
+							Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the
+							single most popular tourist site in Japan, for both Japanese and foreign tourists.
 						</p>
 					</div>
 				</div>
