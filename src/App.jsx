@@ -1,23 +1,28 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import data from './components/Data'
+import Data from './components/Data'
 import Countries from './components/Hero'
 import Nav from './components/Nav'
 import './App.css'
 
-function App(props) {
+function App() {
 	return (
 		<>
 			<Nav />
-			<Countries 
-			
-			location={props.location}
 
-			
-			
-			
-			/>
+			{Data.map(props => (
+				<Countries
+					key={props.id}
+					title={props.title}
+					location={props.location}
+					googleMapsUrl={props.googleMapsUrl}
+					startDate={props.startDate}
+					endDate={props.endDate}
+					description={props.description}
+					imageUrl={props.imageUrl}
+				/>
+			))}
 		</>
 	)
 }
